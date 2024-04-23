@@ -1,0 +1,25 @@
+.child_component_main_page_div{
+    background-color: rgba(255, 255, 255, 0.486);
+    box-shadow: 0 0 10px rgba(124, 120, 120, 0.438);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.top_div_for_the_heading_of_current_component{
+    font-size: 2rem;
+    font-weight: 500;
+    /* position: ab; */
+    padding-right: 1rem;
+}
+.top_div_for_the_heading_of_current_component::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    /* left: 11.3rem; */
+    height: .4rem;
+    width: 12rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: red;
+}

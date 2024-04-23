@@ -1,0 +1,52 @@
+.top_nav_bar_and_component_main_div_at_home{
+    height: calc(100% + 8rem);
+    /* background-color: red; */
+    position: relative;
+    top: -8rem;
+}
+.top_link_div_all_for_top_box_div{
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.486);
+    box-shadow: 0 0 10px rgba(124, 120, 120, 0.438);
+    backdrop-filter: blur(10px);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(5, 1fr);
+    position: absolute;
+    right: 0;
+    padding: 1rem;
+    place-items: center;
+    border-radius: 9px;
+}
+.single_div_for_single_entity_for_top_bar_link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 4rem;
+    width: 4rem;
+    padding: .5rem;
+    border-radius: 8px;
+    align-items: center;
+    background-color: rgb(211 211 211 / 44%);
+    cursor: pointer;
+    transition: .3s;
+}
+.single_div_for_single_entity_for_top_bar_link:hover{
+    background-color: red;
+    color: white;
+    transition: .3s;
+}
+.icon_for_single_entity_div_for_top_bar_link{
+    font-size: 1.4rem;
+}
+.current_tab_color_for_class_extrea{
+    background-color: red;
+    color: white;
+    transition: .3s;
+}
+.lower_components_under_the_top_bar{
+    overflow-y: auto;
+    height: calc(100% - 8rem);
+    position: relative;
+    top: 8rem;
+}

@@ -1,0 +1,31 @@
+.home_back_ground_main_div {
+    position: relative; /* Make sure the container is positioned */
+    padding: 12rem 10rem 2rem 10rem;
+    height: calc(100vh - 14rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.left_side_for_home_side_bar_display{
+    width: 26%;
+    height: 100%;
+}
+.side_side_for_home_nav_bar_and_component_display{
+    width: 70%;
+    height: 100%;
+}
+.home_back_ground_main_div::before {
+    overflow: hidden;
+    content: ""; /* Required for pseudo-elements */
+    background: url('../../Assets/9273530.jpg');
+    opacity: 0.5; /* Set the opacity value */
+    position: absolute; /* Position the pseudo-element */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Place it behind other content */
+    background-size: cover;
+    background-position: center;
+}
